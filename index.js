@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require ('cors')
 const compression = require('compression');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8001;
 const customers = require('./routes/customers')
 // Require and use routes
 
@@ -26,6 +26,6 @@ const db = require("./models");
 
 db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
-    console.log("Server running on port 3001");
+    console.log("Server running on port 8001");
   });
 });
