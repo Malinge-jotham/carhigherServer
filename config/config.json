@@ -13,11 +13,10 @@
     "host": "mysql-cmba.alwaysdata.net",
     "dialect": "mysql"
   },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+ "username": "cmba",
+    "password": "Malinge?1",
+    "database": "cmba_election",
+    "host": "mysql-cmba.alwaysdata.net",
     "dialect": "mysql"
   }
 }
