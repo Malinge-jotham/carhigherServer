@@ -1,16 +1,16 @@
 {
   "development": {
-    "username": "root",
+    "username": "cmba",
     "password": "Malinge?1",
-    "database": "cars",
-    "host": "localhost",
+    "database": "cmba_election",
+    "host": "mysql-cmba.alwaysdata.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "",
+   "username": "cmba",
     "password": "Malinge?1",
-    "database": "cars",
-    "host": "localhost",
+    "database": "cmba_election",
+    "host": "mysql-cmba.alwaysdata.net",
     "dialect": "mysql"
   },
   "production": {
